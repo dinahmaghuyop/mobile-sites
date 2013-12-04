@@ -21,19 +21,19 @@
   * used to alter page rendering
   * allows developers to check CAPABILITY (rather than TYPE) of device used
   
-  * **Syntax**:
+  * **Syntax**
   ```css
   @media type and (feature: value)
   @media (feature: value) and (feature: value)
   ```
 
-  * **Types**:
+  * **Types**
     * `all`
     * Common: `screen`, `print`
     * Others: `braille`, `tv`, `projection`
  
 
-  * **Features**:
+  * **Features**
     * `width` and `height` (window)
     * `device-width` and `device-height`
     * `orientation` - landscape or portrait
@@ -41,18 +41,30 @@
     * `color`, `monochrome`, `aspect-ratio`, etc
     * 
    
-  * **Usage**:
+  * **Usage**
     * separate stylesheet loading
 
     ```ruby
-    stylesheet_link_tag 'application', :media => 'screen, projection'
+    stylesheet_link_tag 'application', :media => 'all'
+    stylesheet_link_tag 'mobile', :media => 'only screen and (max-width: 640px)'
     ``` 
 
-
-
-```css
-@media only screen and (max-width: 640px) {...}
-```
+    * in css file
+ 
+    ```css
+    @media only screen and (max-width: 640px) {
+      /* mobile-specific classes here */
+    }
+    ```
+    
+  * **Gotcha**: Desktop Pixel vs Mobile Pixel
+    * mobile browsers **_pretend_** to be hi-res desktop browsers
+    * Android: 800px, iOS: 980px
+    
+    **Fix**:
+    ```html
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    ```
 
 
 ##Dynamic Serving
