@@ -5,8 +5,7 @@
 
 
 ##Dedicated Mobile Site
-  * diff URL (mobile.site.com, m.site.com), different HTML, different CSS
-  * same database
+  * different URL (mobile.site.com, m.site.com), different HTML, different CSS, same data source
 
 
 ##Dynamic Serving
