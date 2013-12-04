@@ -50,7 +50,7 @@ end
  1. **Liquid Layouts** 
   * layout expands to fill the entire available area as the browser window is resized
   * use of % widths, min/max-width
-  * poor handling of extreme window sizes
+  * awkward handling of extreme window sizes
   
  2. **jQuery and Mobile-specific CSS Classes**
   * `window.width()` - returns width of browser viewport 
