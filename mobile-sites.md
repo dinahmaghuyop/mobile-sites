@@ -6,11 +6,38 @@
 
 ##Dedicated Mobile Site
   * different URL (mobile.site.com, m.site.com), different HTML, different CSS, same data source
+  * app-level device detection, **REDIRECT** to proper site
+  
+```ruby
+request.user_agent =~ /Mobile|webOS/
+```
+  * Example: https://m.facebook.com, https://mobile.twitter.com/
 
-
+  
 ##Dynamic Serving
   * same URL, different HTML, different CSS
+  * **Rails** 
+    * separate view files (e.g. index.haml, index.mobile.haml)
 
+```ruby
+# mime_types.rb
+Mime::Type.register_alias "text/html", :mobile
+
+
+# before_filter in application_controller.rb
+def prepare_for_mobile
+  request.format = :mobile if mobile_device?
+end
+
+
+# sample controller
+def index
+  respond_to do |format|
+    format.html
+    format.mobile
+  end
+end
+```
 
 ## Responsive Design
   * same URL, same HTML, different CSS
