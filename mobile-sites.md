@@ -5,7 +5,8 @@
 
 
 ##Dedicated Mobile Site
-  * different URL (mobile.site.com, m.site.com), different HTML, different CSS, same data source
+  * different URL, different HTML, different CSS, same data source
+  * mobile.site.com, m.site.com
   * app-level device detection, **REDIRECT** to proper site
   
 ```ruby
