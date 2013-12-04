@@ -16,8 +16,13 @@
   * use of % widths, min/max-width
   * poor handling of extreme window sizes
   
+ 2. **jQuery and Mobile-specific CSS Classes**
+  * `window.width()` - returns width of browser viewport 
+  * change `body` class based on width
+  * Example: http://www.asylummarketing.com/
 
- 2. **CSS @media Queries**
+
+ 3. **CSS @media Queries**
   * used to alter page rendering
   * allows developers to check CAPABILITY (rather than TYPE) of device used
   
@@ -66,6 +71,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     ```
 
+  * Example: http://www.andremaurice.it/
 
 ##Dynamic Serving
   * same URL, different HTML, different CSS
@@ -87,6 +93,7 @@
 ### Sources
   * [Mobile Mania: The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
   * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
+  * [Responsive design - harnessing the power of media queries](http://googlewebmastercentral.blogspot.com/2012/04/responsive-design-harnessing-power-of.html) by Google Webmaster Central
   * [CSS Media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) by Mozilla Developer Network
 
 ### Useful Links
