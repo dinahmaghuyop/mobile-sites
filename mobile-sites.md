@@ -4,6 +4,14 @@
   * boosts sales
 
 
+##Dedicated Mobile Site
+  * diff URL (mobile.site.com, m.site.com), different HTML, different CSS
+  * same database
+
+
+##Dynamic Serving
+  * same URL, different HTML, different CSS
+
 
 ## Responsive Design
   * same URL, same HTML, different CSS
@@ -73,14 +81,7 @@
 
   * Example: http://www.andremaurice.it/
 
-##Dynamic Serving
-  * same URL, different HTML, different CSS
 
-
-
-##Dedicated Mobile Site
-  * diff URL (mobile.site.com, m.site.com), different HTML, different CSS
-  * same database
 
 
 
@@ -94,7 +95,9 @@
   * [Mobile Mania: The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
   * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
   * [Responsive design - harnessing the power of media queries](http://googlewebmastercentral.blogspot.com/2012/04/responsive-design-harnessing-power-of.html) by Google Webmaster Central
+  * [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website](http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
   * [CSS Media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) by Mozilla Developer Network
 
 ### Useful Links
+  * [Protofluid: Effortless Responsive Design Testing](http://protofluid.com/)
   * [CSS Media Queries for iPads & iPhones](http://stephen.io/mediaqueries/) by Stephen Gilbert
