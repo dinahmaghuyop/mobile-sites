@@ -10,6 +10,8 @@
   * app-level device detection, **REDIRECT** to proper url
   * **Rails**
     * one app, use of namespace (easiest)
+      * different controllers, routes
+      * different views
     * multiple apps, one database
   
 ```ruby
@@ -22,7 +24,8 @@ request.user_agent =~ /Mobile|webOS/
   * same URL, different HTML, different CSS
   * app-level device detection, **RENDER** proper views
   * **Rails**: For full details: [Railscast #199: Mobile Devices](http://railscasts.com/episodes/199-mobile-devices?view=asciicast)
-    * separate view files (e.g. index.haml, index._mobile_.haml)
+    * same controllers, routes
+    * separate views files (e.g. index.haml, index._mobile_.haml)
 
 ```ruby
 # mime_types.rb
