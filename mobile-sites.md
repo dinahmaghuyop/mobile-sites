@@ -16,6 +16,7 @@ request.user_agent =~ /Mobile|webOS/
   
 ##Dynamic Serving
   * same URL, different HTML, different CSS
+  * app-level device detection, **RENDER** proper views
   * **Rails**: For full details: [Railscast #199: Mobile Devices](http://railscasts.com/episodes/199-mobile-devices?view=asciicast)
     * separate view files (e.g. index.haml, index._mobile_.haml)
 
