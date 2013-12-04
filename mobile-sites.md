@@ -8,10 +8,34 @@
 ## Responsive Design
   * same URL, same HTML, different CSS
   * recommended by Google
+
+ ### CSS @media Queries
+   * used to alter page rendering
+   * allows developers to check CAPABILITY (rather than TYPE) of device used
+   
+   * **Syntax**:
+   ```css
+   @media [type] and ([feature]: [value])
+   ```
+ 
+   * **Types**:
+    * `all`
+    * Common: `screen`, `print`
+    * Others: `braille`, `tv`, `projection`
   
-  ```css
-  @media only screen and (max-width: 640px) {...}
-  ```
+ 
+   * **Features**:
+    * `width` and `height` (window)
+    * `device-width` and `device-height`
+    * `orientation` - landscape or portrait
+    * `resolution`
+    * `color`, `monochrome`, `aspect-ratio`, etc
+  
+
+
+ ```css
+ @media only screen and (max-width: 640px) {...}
+ ```
 
 
 
@@ -25,13 +49,17 @@
   * same database
 
 
+
+
 ---
 
-### Sources
-  * **Mobile Mania**: [The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
-  * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
 
+
+
+### Sources
+  * [Mobile Mania: The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
+  * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
+  * [CSS Media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) by Mozilla Developer Network
 
 ### Useful Links
   * [CSS Media Queries for iPads & iPhones](http://stephen.io/mediaqueries/) by Stephen Gilbert
-  * 
