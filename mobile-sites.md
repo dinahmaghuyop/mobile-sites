@@ -60,12 +60,6 @@ end
 
  3. **CSS @media Queries**
   * allows developers to check CAPABILITY (rather than TYPE) of device used
-  
-  * **Syntax**
-  ```css
-  @media type and (feature: value)
-  @media (feature: value) and (feature: value)
-  ```
 
   * **Types**
     * `all`
@@ -79,8 +73,15 @@ end
     * `orientation` - landscape or portrait
     * `resolution`
     * `color`, `monochrome`, `aspect-ratio`, etc
-    * 
-   
+
+
+  * **Syntax**
+  ```css
+  @media type and (feature: value)
+  @media (feature: value) and (feature: value)
+  ```
+
+
   * **Usage**
     * separate stylesheet loading
 
@@ -97,25 +98,19 @@ end
     }
     ```
     
-  * **Gotcha**: Desktop Pixel vs Mobile Pixel
-    * mobile browsers **_pretend_** to be hi-res desktop browsers
-    * Android: 800px, iOS: 980px
-    
-    **Fix**:
-    ```html
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    ```
-
-  * Example: http://www.andremaurice.it/
-
-
-
-
-
+  * Example: http://www.andremaurice.it/  
 
 ---
 
-
+### [Gotcha]: Desktop Pixel vs Mobile Pixel
+ * mobile browsers **_pretend_** to be hi-res desktop browsers
+ * Android: 800px, iOS: 980px
+ 
+ **Fix**:
+ ```html
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ ```
+---
 
 
 ### Sources
@@ -124,7 +119,7 @@ end
   * [Responsive design - harnessing the power of media queries](http://googlewebmastercentral.blogspot.com/2012/04/responsive-design-harnessing-power-of.html) by Google Webmaster Central
   * [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website](http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
   * [CSS Media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) by Mozilla Developer Network
-  * [Railscast #199: Mobile Devices](http://railscasts.com/episodes/199-mobile-devices?view=asciicast)
+  * [Railscast #199: Mobile Devices](http://railscasts.com/episodes/199-mobile-devices?view=asciicast) by Ryan Bates
 
 ### Useful Links
   * [Protofluid: Effortless Responsive Design Testing](http://protofluid.com/)
