@@ -7,7 +7,8 @@
 ##Dedicated Mobile Site
   * different URL, different HTML, different CSS, same data source
   * mobile.site.com, m.site.com
-  * app-level device detection, **REDIRECT** to proper site
+  * app-level device detection, **REDIRECT** to proper url
+  * **Rails**: one app, use of named_space to handle mobile.site.com
   
 ```ruby
 request.user_agent =~ /Mobile|webOS/
