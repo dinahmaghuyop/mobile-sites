@@ -125,6 +125,8 @@ end
   * [CSS Media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries) by Mozilla Developer Network
   * [Railscast #199: Mobile Devices](http://railscasts.com/episodes/199-mobile-devices?view=asciicast) by Ryan Bates
   * [StackOverflow: Multiple Rails app, single MySQL database](http://stackoverflow.com/questions/2690546/multiple-rails-app-single-mysql-database)
+
+
 ### Useful Links
   * [Protofluid: Effortless Responsive Design Testing](http://protofluid.com/)
   * [CSS Media Queries for iPads & iPhones](http://stephen.io/mediaqueries/) by Stephen Gilbert
