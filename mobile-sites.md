@@ -27,7 +27,7 @@ Mime::Type.register_alias "text/html", :mobile
 
 
 # before_filter in application_controller.rb
-def prepare_for_mobile
+def set_mobile_request
   request.format = :mobile if mobile_device?
 end
 
