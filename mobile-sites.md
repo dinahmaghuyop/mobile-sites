@@ -59,7 +59,6 @@ end
 
 
  3. **CSS @media Queries**
-  * used to alter page rendering
   * allows developers to check CAPABILITY (rather than TYPE) of device used
   
   * **Syntax**
