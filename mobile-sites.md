@@ -10,7 +10,7 @@
   * app-level device detection, **REDIRECT** to proper url
   * **Rails**
     * one app, use of namespace (easiest)
-    * multiple apps, one database (tricky)
+    * multiple apps, one database
   
 ```ruby
 request.user_agent =~ /Mobile|webOS/
