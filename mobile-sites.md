@@ -28,22 +28,25 @@
   ```
 
   * **Types**:
-   * `all`
-   * Common: `screen`, `print`
-   * Others: `braille`, `tv`, `projection`
+    * `all`
+    * Common: `screen`, `print`
+    * Others: `braille`, `tv`, `projection`
  
 
   * **Features**:
-   * `width` and `height` (window)
-   * `device-width` and `device-height`
-   * `orientation` - landscape or portrait
-   * `resolution`
-   * `color`, `monochrome`, `aspect-ratio`, etc
-   * 
+    * `width` and `height` (window)
+    * `device-width` and `device-height`
+    * `orientation` - landscape or portrait
+    * `resolution`
+    * `color`, `monochrome`, `aspect-ratio`, etc
+    * 
    
   * **Usage**:
-   1. Separate stylesheet loading
+    * separate stylesheet loading
 
+    ```ruby
+    stylesheet_link_tag 'application', :media => 'screen, projection'
+    ``` 
 
 
 
