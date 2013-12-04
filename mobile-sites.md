@@ -9,34 +9,47 @@
   * same URL, same HTML, different CSS
   * recommended by Google
 
- ### CSS @media Queries
-   * used to alter page rendering
-   * allows developers to check CAPABILITY (rather than TYPE) of device used
+### Implementation
+
+ 1. **Liquid Layouts** 
+  * layout expands to fill the entire available area as the browser window is resized
+  * use of % widths, min/max-width
+  * poor handling of extreme window sizes
+  
+
+ 2. **CSS @media Queries**
+  * used to alter page rendering
+  * allows developers to check CAPABILITY (rather than TYPE) of device used
+  
+  * **Syntax**:
+  ```css
+  @media type and (feature: value)
+  @media (feature: value) and (feature: value)
+  ```
+
+  * **Types**:
+   * `all`
+   * Common: `screen`, `print`
+   * Others: `braille`, `tv`, `projection`
+ 
+
+  * **Features**:
+   * `width` and `height` (window)
+   * `device-width` and `device-height`
+   * `orientation` - landscape or portrait
+   * `resolution`
+   * `color`, `monochrome`, `aspect-ratio`, etc
+   * 
    
-   * **Syntax**:
-   ```css
-   @media [type] and ([feature]: [value])
-   ```
- 
-   * **Types**:
-    * `all`
-    * Common: `screen`, `print`
-    * Others: `braille`, `tv`, `projection`
-  
- 
-   * **Features**:
-    * `width` and `height` (window)
-    * `device-width` and `device-height`
-    * `orientation` - landscape or portrait
-    * `resolution`
-    * `color`, `monochrome`, `aspect-ratio`, etc
-  
+  * **Usage**:
+   1. Separate stylesheet loading
 
 
- ```css
- @media only screen and (max-width: 640px) {...}
- ```
 
+
+```css
+@media only screen and (max-width: 640px) {...}
+```
 
 
 ##Dynamic Serving
