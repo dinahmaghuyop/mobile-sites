@@ -11,7 +11,7 @@
     * one app, use of namespace (easiest)
       * different controllers, routes
       * different views
-    * multiple apps, one database
+    * multiple apps, one database?
   
 ```ruby
 request.user_agent =~ /Mobile|webOS/
