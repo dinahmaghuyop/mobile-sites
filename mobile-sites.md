@@ -1,8 +1,6 @@
 # Mobile-Optimized Sites
-  * 91% of all people on earth have a mobile phone, 56% smart phone
-  * 50% of mobile phone users, use mobile as their primary Internet source
-  * 1 in 4 mobile users access websites in mobile devices at least once a day (2011)
-  * boosts user engagement & sales (more visits per user)
+  * By 2014, mobile internet usage will overtake desktop internet usage
+  * 99% of smartphone users use the mobile browser once a day
 
 
 ##Dedicated Mobile Site
@@ -123,7 +121,7 @@ end
 
 ### Sources
   * [Infographic: 2013 Mobile Growth Statistics](http://www.digitalbuzzblog.com/infographic-2013-mobile-growth-statistics/)
-  * [Mobile Mania: The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
+  * [INFOGRAPHIC -- Is Your Website Mobile Optimized?](http://www.prnewswire.com/news-releases/infographic----is-your-website-mobile-optimized-225437782.html)
   * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
   * [Responsive design - harnessing the power of media queries](http://googlewebmastercentral.blogspot.com/2012/04/responsive-design-harnessing-power-of.html) by Google Webmaster Central
   * [How To Use CSS3 Media Queries To Create a Mobile Version of Your Website](http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
