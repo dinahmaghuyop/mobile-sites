@@ -1,7 +1,8 @@
 # Mobile-Optimized Sites
-  * 1 in 4 mobile users access websites in mobile devices at least once a day 
-  * boosts user engagement (more visits per user)
-  * boosts sales
+  * 91% of all people on earth have a mobile phone, 56% smart phone
+  * 50% of mobile phone users, use mobile as their primary Internet source
+  * 1 in 4 mobile users access websites in mobile devices at least once a day (2011)
+  * boosts user engagement & sales (more visits per user)
 
 
 ##Dedicated Mobile Site
@@ -121,6 +122,7 @@ end
 
 
 ### Sources
+  * [Infographic: 2013 Mobile Growth Statistics](http://www.digitalbuzzblog.com/infographic-2013-mobile-growth-statistics/)
   * [Mobile Mania: The Growing Importance of Mobile Optimization](http://blog.kissmetrics.com/mobile-mania/)
   * [Building Smartphone-Optimized Websites](https://developers.google.com/webmasters/smartphone-sites/) by Google Developers
   * [Responsive design - harnessing the power of media queries](http://googlewebmastercentral.blogspot.com/2012/04/responsive-design-harnessing-power-of.html) by Google Webmaster Central
