@@ -57,7 +57,7 @@ end
   * use of % widths, min/max-width
   * awkward handling of extreme window sizes
   
- 2. **jQuery and Mobile-specific CSS Classes**
+ 2. **JS and Mobile-specific CSS Classes**
   * `window.width()` - returns width of browser viewport 
   * change `body` class based on width
   * Example: http://www.asylummarketing.com/
