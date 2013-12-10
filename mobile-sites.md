@@ -48,12 +48,12 @@ end
 ```
 
 ## Responsive Design
-  * same URL, same HTML, different CSS
+  * same URL, same HTML, CSS-level optimization
   * recommended by Google
 
 ### Implementation
 
- 1. **Liquid Layouts** 
+ 1. **Liquid Layouts** (same CSS for desktop/mobile)
   * layout expands to fill the entire available area as the browser window is resized
   * use of % widths, min/max-width
   * awkward handling of extreme window sizes
