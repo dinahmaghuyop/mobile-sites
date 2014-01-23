@@ -118,6 +118,11 @@ end
 
 ---
 
+### Will it work on IE8? -- Yes!
+ * [Respond.js](https://github.com/scottjehl/Respond)
+ * [css3-mediaqueries-js](http://code.google.com/p/css3-mediaqueries-js/)
+---
+
 
 ### Sources
   * [Infographic: 2013 Mobile Growth Statistics](http://www.digitalbuzzblog.com/infographic-2013-mobile-growth-statistics/)
