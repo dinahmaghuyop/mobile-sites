@@ -120,7 +120,8 @@ end
 
 ### Will it work on IE8? -- Yes!
  * [Respond.js](https://github.com/scottjehl/Respond)
- * [css3-mediaqueries-js](http://code.google.com/p/css3-mediaqueries-js/)
+ * [css3-mediaqueries-js](http://code.google.com/p/css3-mediaqueries-js)
+
 ---
 
 
